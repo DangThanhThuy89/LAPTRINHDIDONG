@@ -8,6 +8,7 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!"
@@ -17,16 +18,21 @@
         android:textSize="60sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.709"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.589" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Click here"
-        tools:layout_editor_absoluteX="160dp"
-        tools:layout_editor_absoluteY="423dp" />
+        android:layout_marginTop="608dp"
+        android:text="TONG"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.55"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ScrollView
         android:layout_width="41dp"
@@ -44,8 +50,8 @@
         android:id="@+id/imageView"
         android:layout_width="111dp"
         android:layout_height="139dp"
-        tools:layout_editor_absoluteX="150dp"
-        tools:layout_editor_absoluteY="144dp"
+        tools:layout_editor_absoluteX="165dp"
+        tools:layout_editor_absoluteY="258dp"
         tools:srcCompat="@android:drawable/btn_star_big_on" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
